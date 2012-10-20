@@ -1,0 +1,36 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyWebSocketSignalRTry
+</name>
+</assembly>
+<members>
+<member name="P:MyWebSocketSignalRTry.My.MyWebExtension.Computer">
+	<summary>
+ Gibt Informationen zum Hostcomputer zurück.
+ </summary>
+</member><member name="P:MyWebSocketSignalRTry.My.MyWebExtension.User">
+	<summary>
+ Gibt Informationen zum aktuellen Webbenutzer zurück.
+ </summary>
+</member><member name="P:MyWebSocketSignalRTry.My.MyWebExtension.Request">
+	<summary>
+ Gibt das Objekt "Request" zurück.
+ </summary>
+</member><member name="P:MyWebSocketSignalRTry.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:MyWebSocketSignalRTry.My.MyWebExtension.Log">
+	<summary>
+ Gibt das ASP-Protokollobjekt zurück.
+ </summary>
+</member><member name="T:MyWebSocketSignalRTry.My.MyWebExtension">
+	<summary>
+ Modul, das zum Definieren der Eigenschaften verwendet wird, die unter "My Namespace" für Webprojekte verfügbar sind.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
