@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AppHarbor.NET</id>
+    <version>2.2.0</version>
+    <authors>Nikolas Tziolis, AppHarbor</authors>
+    <owners>Nikolas Tziolis, AppHarbor</owners>
+    <licenseUrl>https://raw.github.com/appharbor/AppHarbor.NET/master/LICENSE.txt</licenseUrl>
+    <projectUrl>http://appharbor.github.com/AppHarbor.NET/</projectUrl>
+    <iconUrl>https://github.com/appharbor/AppHarbor.NET/raw/master/AppHarbor.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Managed .Net client for the AppHarbor API</description>
+    <releaseNotes>2.2.0 - Added Branch name to the sdk
+Updated restsharp to version 103.4
+2.1.0 - Added AskForAuthorization a localhost webserver authorization method
+2.0.0 - Changed all Id are now strings, inner exception in Error model is now also error message, rename AppHarborApi to AppHarborClient
+1.1.0 - Updated RestSharp package to version 103.0.0, which removes Json.NET  package dependency
+1.0.3 - Unified ID handling and added argument checks
+1.0.2 - Updated icon and License info
+1.0.1 - Reference to Newtonsoft.Json was fixed to 4.0.8 (because of issues with RestSharp dependencies)
+1.0.0 - Fully supports the AppHabor API (2012.03.21)</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>AppHarbor Rest API Wrapper</tags>
+    <dependencies>
+      <dependency id="RestSharp" version="103.0.0" />
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AFSSignalRServer
+</name>
+</assembly>
+<members>
+<member name="P:AFSSignalRServer.My.MyWebExtension.Computer">
+	<summary>
+ Gibt Informationen zum Hostcomputer zurück.
+ </summary>
+</member><member name="P:AFSSignalRServer.My.MyWebExtension.User">
+	<summary>
+ Gibt Informationen zum aktuellen Webbenutzer zurück.
+ </summary>
+</member><member name="P:AFSSignalRServer.My.MyWebExtension.Request">
+	<summary>
+ Gibt das Objekt "Request" zurück.
+ </summary>
+</member><member name="P:AFSSignalRServer.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:AFSSignalRServer.My.MyWebExtension.Log">
+	<summary>
+ Gibt das ASP-Protokollobjekt zurück.
+ </summary>
+</member><member name="T:AFSSignalRServer.My.MyWebExtension">
+	<summary>
+ Modul, das zum Definieren der Eigenschaften verwendet wird, die unter "My Namespace" für Webprojekte verfügbar sind.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:AFSSignalRServer.My.Resources.Resources.ResourceManager">
+	<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member><member name="P:AFSSignalRServer.My.Resources.Resources.Culture">
+	<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member><member name="T:AFSSignalRServer.My.Resources.Resources">
+	<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+</members>
+</doc>
