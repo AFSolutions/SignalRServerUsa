@@ -82,14 +82,13 @@ Public Class wsHub
 
     
 #Region "simple files getting"
-    Public Sub SendFiletoUser(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal filename As String, ByVal bytearr As Byte())
-        Clients(FileGetter).clientGetStream(ServerFrom, filename, bytearr)
+    Public Sub SendWebCamFileToUsers(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal Nr As Integer, ByVal bytearr As Byte())
+        Clients(FileGetter).clientGetWebCamStream(ServerFrom, Nr, bytearr)
     End Sub
 
     Public Sub SendWebCamFileToUsers(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal Nr As String, ByVal bytearr As Byte())
         '  Clients(FileGetter).clientGetWebCamStream(ServerFrom, Nr, bytearr)
         Clients(FileGetter).clientWantToSendWebStream(ServerFrom)
-
     End Sub
 
     
@@ -151,6 +150,9 @@ Public Class wsHub
             Return Nothing
         End If
     End Function
+
+
+
 
 #End Region
 
