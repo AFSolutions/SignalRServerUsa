@@ -1,5 +1,5 @@
 ﻿Imports SignalR.Hubs
-Imports AFSSignalRServer.Global_asax
+
 Imports System.Runtime.Serialization
 REM ready version v2.8
 <HubName("wsHub")>
@@ -62,9 +62,6 @@ Public Class wsHub
         End Try
     End Sub
 
-
-
-
     Public Sub BroadCastMessage(ByVal conid As String, ByVal message As String)
         Clients.clientGotMessage(conid, message)
     End Sub
@@ -89,6 +86,11 @@ Public Class wsHub
         Clients(FileGetter).clientGetStream(ServerFrom, filename, bytearr)
     End Sub
 
+    Public Sub SendWebCamFileToUsers(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal Nr As String, ByVal bytearr As Byte())
+        '  Clients(FileGetter).clientGetWebCamStream(ServerFrom, Nr, bytearr)
+        Clients(FileGetter).clientWantToSendWebStream(ServerFrom)
+
+    End Sub
 
     
 #End Region
