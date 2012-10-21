@@ -17,4 +17,3 @@ C:\Users\AFSolutions\Documents\Visual Studio 2012\Projects\SignalRServerUsa\MyWe
 C:\Users\AFSolutions\Documents\Visual Studio 2012\Projects\SignalRServerUsa\MyWebSocketSignalRTry\obj\Debug\AFSSignalRServer.dll
 C:\Users\AFSolutions\Documents\Visual Studio 2012\Projects\SignalRServerUsa\MyWebSocketSignalRTry\obj\Debug\AFSSignalRServer.xml
 C:\Users\AFSolutions\Documents\Visual Studio 2012\Projects\SignalRServerUsa\MyWebSocketSignalRTry\obj\Debug\AFSSignalRServer.pdb
-C:\Users\AFSolutions\Documents\Visual Studio 2012\Projects\SignalRServerUsa\MyWebSocketSignalRTry\obj\Debug\AFSSignalRServerUSA.vbprojResolveAssemblyReference.cache

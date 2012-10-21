@@ -86,12 +86,13 @@ Public Class wsHub
         Clients(FileGetter).clientGetWebCamStream(ServerFrom, Nr, bytearr)
     End Sub
 
-    Public Sub SendWebCamFileToUsers(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal Nr As String, ByVal bytearr As Byte())
-        '  Clients(FileGetter).clientGetWebCamStream(ServerFrom, Nr, bytearr)
-        Clients(FileGetter).clientWantToSendWebStream(ServerFrom)
+    Public Sub SendFiletoUser(ByVal FileGetter As String, ByVal ServerFrom As String, ByVal filename As String, ByVal bytearr As Byte())
+        Clients(FileGetter).clientGetStream(ServerFrom, filename, bytearr)
     End Sub
 
-    
+    Public Sub WebCamFileMakeSure(ByVal filegetter As String, ByVal serverfrom As String, ByVal nr As Integer, ByVal bytearr As Byte())
+        Clients(filegetter).clientWantToSendWebStream(serverfrom)
+    End Sub
 #End Region
 
 #Region "recieve getting files okay..."
